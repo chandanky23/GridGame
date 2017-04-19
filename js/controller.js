@@ -25,7 +25,7 @@ app.controller('gridgameCtrl', function($scope, $interval , $uibModal) {
         }
         $scope.allcolors = $scope.shuffleArray($scope.allcolors);
         $scope.scoreMatch = 0;
-        $scope.timeOut = 2;
+        $scope.timeOut = 60;
     }
     $scope.updateTime =function(){
         console.log($scope.timeOut);
